@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<ul>
+    <li>
+        <a href="{{ get_url(path="@/blog/_index.md") }}">blog</a>
+    </li>
+    <li>
+        <a href="{{ get_url(path="@/projects/_index.md") }}">projects</a>
+    </li>
+</ul>
+
+{% endblock content %}
